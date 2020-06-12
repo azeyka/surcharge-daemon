@@ -1,0 +1,22 @@
+{
+  "name": "some-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "start": "node app/index.js",
+    "lint": "npx eslint app"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "moment": "^2.26.0",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  }
+}
