@@ -18,8 +18,7 @@
         "email": "test@test.ru",
         "phone": "+79999999999",
         "currency": "RUB",
-        "service_class": "insurances_service",
-        "followed_at": "now()"
+        "service_class": "insurances_service"
     }
 ```
 ### 2. GET `/surcharges/:id` - Получение инфо о доплате
