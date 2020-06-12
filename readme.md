@@ -8,7 +8,7 @@
    `yarn start`
 
 ## Api 
-### POST `/surcharges/add` - Добавление доплаты
+### 1. POST `/surcharges/add` - Добавление доплаты
 Пример body (JSON):
 ```
     {
@@ -22,4 +22,4 @@
         "followed_at": "now()"
     }
 ```
-### GET `/surcharges/:id` - Получение инфо о доплате
+### 2. GET `/surcharges/:id` - Получение инфо о доплате
